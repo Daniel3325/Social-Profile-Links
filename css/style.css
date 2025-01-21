@@ -1,0 +1,140 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 400px;
+    height: 600px;
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+}
+
+/*--------------------Image--------------------*/
+
+.center-box .image{
+    /*background-color: rgba(0, 0, 255, 0.100);*/
+    width: 400px;
+    height: 100px;
+    margin: 20px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box .image img{
+    width: 88px;
+    height: 88px;
+    border-radius: 50px;
+}
+
+/*--------------------Info--------------------*/
+
+.center-box .info{
+    /*background-color: rgba(0, 255, 255, 0.100);*/
+    width: 400px;
+    height: 120px;
+    margin: 0;
+}
+
+/*----------Name----------*/
+
+.center-box .info .name{
+    /*background-color: rgba(127, 255, 212, 0.100);*/
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box .info .name h1{
+    font-family: Inter;
+    color: hsl(0, 0%, 100%);
+    margin: 0;
+}
+
+/*---------Location---------*/
+
+.center-box .info .location{
+    /*background-color: rgba(229, 255, 0, 0.1);*/
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.center-box .info .location p{
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(75, 94%, 57%);
+    margin: 0;
+}
+
+/*---------Descrição----------*/
+
+.center-box .info .desc{
+    /*background-color: rgba(255, 127, 80, 0.1);*/
+    width: 400px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-box .info .desc p{
+    font-family: Inter;
+    font-size: 14px;
+    color: hsl(0, 0%, 75%);
+}
+
+/*-------------------Links--------------------*/
+
+.center-box .links{
+    /*background-color: rgba(34, 139, 34, 0.1);*/
+    width: 400px;
+    height: 320px;
+    margin: 0;
+}
+
+.center-box .links button{
+    width: 300px;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    font-family: Inter;
+    font-weight: bold;
+    color: hsl(0, 0%, 85%);
+    transition: 0.5s;
+}
+
+.center-box .links button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+    cursor: pointer;
+}
+
+/*---------Social----------*/
+
+.center-box .links .github,
+.frontend,
+.linkedin,
+.twitter,
+.instagram{
+    /*background-color: rgba(0, 255, 0, 0.1);*/
+    width: 400px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
